@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Yandex Test Task</title>
+    <link rel="stylesheet" href="/css/main.css">
+  </head>
+  <body>
+    <form id="myForm" action="">
+      ФИО: <input name="fio">
+      Email: <input name="email">
+      Phone: <input name="phone">
+      <button id="submitButton" type="button">Submit</button>
+      <div id="resultContainer">
+        <!-- result will be shown here -->
+      </div>
+    </form>
+    <script src="/lib/jquery-3.2.1.min.js"></script>
+    <script src="index.js"></script>
+    <script type="text/javascript">
+      $("#submitButton").on("click", () => { MyForm.submit() }); 
+    </script>
+  </body>
+</html>
